@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" [routerLink]="['/']" routerLinkActive="active" >Inicio</a>
+    <a class="navbar-brand" [routerLink]="['/home']" routerLinkActive="active" >Inicio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -10,10 +10,19 @@
           <a class="nav-link" [routerLink]="['/login']" routerLinkActive="active" >Login </a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/login2']" routerLinkActive="active" >Login 2 </a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" [routerLink]="['/leedata']" routerLinkActive="active" >Lee data</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['/escribedata']" routerLinkActive="active" >Escribe data</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/leedrupal']" routerLinkActive="active" >Lee Drupal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/escribedrupal']" routerLinkActive="active" >Escribe Drupal</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
